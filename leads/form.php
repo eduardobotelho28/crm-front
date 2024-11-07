@@ -67,62 +67,109 @@
     * {
         padding: 0px;
         margin: 0px;
+        box-sizing: border-box;
     }
 
     body {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        font-family: Arial, sans-serif;
         background-color: #191970;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
     }
 
     form {
-        background-color: #E7E7E7;
+        background-color: #e0e0e0;
         padding: 20px;
-        border-radius: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
         width: 400px;
     }
 
     .form-group {
         display: flex;
         flex-direction: column;
+        gap: 5px;
     }
 
-    a{
-        margin-top: 20px     ;
-        text-decoration: none;
-        color: black;
-        width: 50px;
-        height: 20px;
+    label {
+        color: #333;
+        font-weight: bold;
+    }
+
+    input[type="text"] {
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        outline: none;
+        transition: border-color 0.3s ease;
+    }
+
+    input[type="text"]:focus {
+        border-color: #4682b4;
     }
 
     .buttons {
+        display: flex;
+        gap: 10px;
         margin-top: 10px;
     }
 
     button {
-        padding: 5px;
+        background-color: #4682b4;
+        color: #fff;
+        border: none;
         border-radius: 5px;
         cursor: pointer;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: #5a9bd3;
+    }
+
+    button a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    button a:hover {
+        color: #fff;
     }
 
     #save-button {
-        background-color: #26C3DA;
-        color: white;
+        background-color: #26c3da;
     }
 
-    input {
-        padding: 3px;
-        border-radius: 3px;
+    #save-button:hover {
+        background-color: #33d1e5;
     }
 
     .msg {
-        background-color: #F0F0F0;
-        padding: 10px           ;
+        background-color: #f4f4f4;
+        color: #333;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
     }
+
+    a {
+        color: #0066cc;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    a:hover {
+        color: #003399;
+    }
+
 </style>

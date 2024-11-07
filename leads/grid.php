@@ -100,71 +100,127 @@ else {
 
 
 <style>
-    *{
+    * {
         padding: 0px;
         margin: 0px;
+        box-sizing: border-box;
     }
 
-    table {
-        width: auto;
-        border-radius: 10px;
-    }
-    
-    td {
-        padding: 15px;
-    }
-
-    thead{
-        background-color: white;
-    }
-    tbody {
-        background-color: #E7E7E7;
-    }
-    
-    button {
-        background-color: #e7e7e7;
-        width: 70px              ;
-        height: 30px             ;
-        border-radius: 5px       ;
-        cursor: pointer          ;
-    }
-
-    button:hover {
-        background-color: white;
-    }
-
-    a {
-        text-decoration: none;
-        color: black         ;
-    }
-
-    .option {
-        cursor: pointer;
-        text-decoration: underline;
-    }
-
-    .option:hover {
-        background-color: white;
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #191970;
+        color: #fff;
     }
 
     .wrapper {
-        width: 100vw; 
-        height:100vh; 
-        display:flex; 
-        justify-content:center; 
-        align-items:center; 
-        flex-direction:column; 
-        gap:30px;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
         background-color: #191970;
     }
 
     form {
-        background-color: #E7E7E7;
+        background-color: #e0e0e0;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px;
-        gap: 5px;
-        border-radius: 10px;
+        padding: 15px;
+        gap: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
+
+    form p {
+        color: #333;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    form label {
+        color: #333;
+        font-weight: normal;
+    }
+
+    input[type="text"] {
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        background-color: #4682b4;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 8px 15px;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #5a9bd3;
+    }
+
+    a {
+        text-decoration: none;
+        color: #0066cc;
+        transition: color 0.3s ease;
+    }
+
+    a:hover {
+        color: #003399;
+    }
+
+    table {
+        width: auto;
+        border-radius: 10px; /* Arredondamento nas bordas da tabela */
+        border-collapse: separate; /* Necessário para o border-radius */
+        border-spacing: 0; /* Remove espaçamento extra entre as células */
+        overflow: hidden; /* Garante que as bordas arredondadas sejam aplicadas */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: #fff;
+        color: #333;
+    }
+
+    td, th {
+        padding: 12px;
+        border: 1px solid #dcdcdc;
+    }
+
+    thead {
+        background-color: #f4f4f4;
+        font-weight: bold;
+        color: #333;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: #e0e0e0;
+    }
+
+    .option {
+        color: #4682b4;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .option:hover {
+        color: #5a9bd3;
+    }
+
+    button a {
+        color: #fff;
+    }
+
+    button a:hover {
+        color: #fff;
+    }
+
 </style>
