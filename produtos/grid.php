@@ -70,7 +70,7 @@ else {
                     <td> <?= !empty($row['nome']) ? $row['nome']                 : '' ; ?></td>
                     <td> <?= !empty($row['descricao']) ? $row['descricao']       : '' ; ?></td>
                     <td> <?= !empty($row['codigo']) ? $row['codigo']             : '' ; ?></td>
-                    <td> <?= !empty($row['preço']) ? $row['preço']               : '' ; ?></td>
+                    <td> <?= !empty($row['preco']) ? $row['preco']               : '' ; ?></td>
                     <td> <?= !empty($row['data_criacao']) ? $row['data_criacao'] : '' ; ?></td>
                     <td class="option">
                         <a href="form.php<?= '?id=' . $row['id']?>">
