@@ -98,7 +98,7 @@ else {
     </button>
 
     <button>
-        <a href="../index.php">Voltar ao Menu</a>
+        <a href="../index.php">VOLTAR AO MENU</a>
     </button>
 </div>
 
@@ -161,8 +161,8 @@ else {
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        padding: 8px 15px;
         transition: background-color 0.3s ease;
+        font-weight: bold;
     }
 
     button:hover {
@@ -173,6 +173,12 @@ else {
         text-decoration: none;
         color: #0066cc;
         transition: color 0.3s ease;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 15px;
     }
 
     a:hover {
@@ -191,6 +197,7 @@ else {
     }
 
     td, th {
+        text-align: center;
         padding: 12px;
         border: 1px solid #dcdcdc;
     }
@@ -227,4 +234,7 @@ else {
         color: #fff;
     }
 
+    button[type="submit"] {
+        padding: 8px 15px;
+    }
 </style>

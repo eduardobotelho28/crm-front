@@ -161,8 +161,8 @@ else {
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        padding: 8px 15px;
         transition: background-color 0.3s ease;
+        font-weight: bold;
     }
 
     button:hover {
@@ -178,6 +178,7 @@ else {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 8px 15px;
     }
 
     a:hover {
@@ -196,6 +197,7 @@ else {
     }
 
     td, th {
+        text-align: center;
         padding: 12px;
         border: 1px solid #dcdcdc;
     }
@@ -230,6 +232,10 @@ else {
 
     button a:hover {
         color: #fff;
+    }
+
+    button[type="submit"] {
+        padding: 8px 15px;
     }
 
 </style>

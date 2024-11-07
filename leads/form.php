@@ -127,7 +127,6 @@
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        padding: 10px 20px;
         transition: background-color 0.3s ease;
         font-weight: bold;
     }
@@ -163,13 +162,23 @@
     }
 
     a {
-        color: #0066cc;
         text-decoration: none;
+        color: #0066cc;
         transition: color 0.3s ease;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
     }
 
     a:hover {
         color: #003399;
+    }
+
+    button[type="submit"] {
+        padding: 10px 20px;
     }
 
 </style>
