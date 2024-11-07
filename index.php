@@ -84,10 +84,13 @@
             <a href="leads/grid.php">Leads</a>
         </div>
         <div class="resource">
-        <a href="oportunidades/grid.php">Oportunidades</a>
+            <a href="oportunidades/grid.php">Oportunidades</a>
         </div>
         <div class="resource">
-        <a href="produtos/grid.php">Produtos</a>
+            <a href="produtos/grid.php">Produtos</a>
+        </div>
+        <div class="resource">
+            <a href="">Exportar produtos PDF</a>
         </div>
     </div>
 </body>

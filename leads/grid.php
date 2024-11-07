@@ -96,6 +96,10 @@ else {
     <button>
         <a href="form.php">CRIAR</a>
     </button>
+
+    <button>
+        <a href="../index.php">VOLTAR AO MENU</a>
+    </button>
 </div>
 
 
@@ -169,6 +173,11 @@ else {
         text-decoration: none;
         color: #0066cc;
         transition: color 0.3s ease;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     a:hover {
