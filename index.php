@@ -90,7 +90,7 @@
             <a href="produtos/grid.php">Produtos</a>
         </div>
         <div class="resource">
-            <a href="">Exportar produtos PDF</a>
+            <a href="exportar_produtos.php">Listar produtos em PDF</a>
         </div>
     </div>
 </body>
